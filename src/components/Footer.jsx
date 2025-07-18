@@ -6,9 +6,13 @@ import ig from '../assets/ig.svg'
 import x from '../assets/x.svg'
 import link from '../assets/link.svg'
 import yt from '../assets/yt.svg'
+import React from 'react';
+    
 
 
-const Component8 = () => {
+
+
+const HompageComponent8 = () => {
 
     return(
         <>
@@ -58,4 +62,4 @@ const Component8 = () => {
     )
 }
 
-export default Component8
+export default HompageComponent8

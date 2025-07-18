@@ -28,6 +28,14 @@ body {
 
 }
 
+.hamburger {
+    display: none;
+}
+
+/* .nav-mobile {
+    display: none;
+} */
+
 .link {
     color: #2d2c4c;
     text-decoration: none;
@@ -38,15 +46,46 @@ body {
     color: #20a5e6;
 }
 
-@media (max-width : 760px) {
+@media (max-width : 1000px) {
     .header {
-        /* height : 100px;
-        padding: 20px 40px;
-        width: 100%;   */
+        /* background-color: black; */
+        padding: 10px 1.5%;
+        height: auto; 
+        width: 97%;
     }
 
     .nav {
         display: none;
     }
+
+    .logo {
+        width: 160px;
+        height: auto;
+        padding: 0;
+
+    }
+
+    .hamburger {
+        display: block;
+        color: black;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+
+    /* .nav-mobile {
+        display: 'flex';
+        flex-direction: 'column';
+        justify-content: 'space-between';
+        align-items: 'center';
+        width: '100%';
+        padding: '10px 20px';
+        background-color: 'rgba(252,215,80, 0.6)';
+        box-shadow: '0 2px 4px rgba(0, 0, 0, 0.1)';
+        position: 'fixed';
+        top: 50;
+        left: 10;
+        z-index: 1000;
+    } */
 
 }

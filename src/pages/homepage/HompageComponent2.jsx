@@ -1,10 +1,10 @@
-import "../styles/Component2.css"
-import smilingman from '../assets/smilingman.png'
-import colab from '../assets/colab.svg'
-import blog from '../assets/blog.svg'
-import contact from '../assets/contact.svg'
+import "../../styles/Component2.css"
+import smilingman from '../../assets/smilingman.png'
+import colab from '../../assets/colab.svg'
+import blog from '../../assets/blog.svg'
+import contact from '../../assets/contact.svg'
 
-const Component2 = () => {
+const HompageComponent2 = () => {
 
     return(
         <>
@@ -46,4 +46,4 @@ const Component2 = () => {
     )
 }
 
-export default Component2
+export default HompageComponent2

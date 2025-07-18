@@ -89,27 +89,28 @@
     height: 550px;
 }
 
-@media (max-width : 1000px) {
+@media (max-width : 720px) {
     .part1 {
-        width: 232%;
-        padding-left: 40px;
-        padding-right: 40px;
+        width: 97%;
+        padding: 40px 2%;
+        /* padding-right: 40px; */
     }
 
     .container1 {
         flex-direction: column;
-        height: 1750px;
+        height: auto;
     }
 
     .child1 {
         text-align: center;
+        height: auto;
     }
 
     .welcome {
-        height: 50px;
-        width: 500px;
-        font-size: 37px;
-        padding: 10px;
+        height: auto;
+        /* width: 300px; */
+        font-size: 16px;
+        padding: 3px 2%;
         margin: 0 auto;
     }
 
@@ -117,21 +118,26 @@
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        padding-top: 60px;
+        padding-top: 20px;
         padding-left: 0px;
         padding-right: 40px;
-        font-size: 110px;
+        font-size: 50px;
+        line-height: 1
     }
 
     .smile {
         width: 100%;
-        padding-top: 60px;
+        height: auto;
+        padding-top: 10px;
+        margin-top: 30px;
         
     }
 
     .small {
-        font-size: 40px;
+        font-size: 17px;
         width: 100%;
+        color: black;
+        font-weight: 500;
         text-align: center;
 
     }
@@ -147,9 +153,8 @@
     }
 
     .down {
-        height: 160px;
-        width: 160px;
-        padding-top: 60px;
+        height: 80px;
+        width: 80px;
     }
 
     .bottom {

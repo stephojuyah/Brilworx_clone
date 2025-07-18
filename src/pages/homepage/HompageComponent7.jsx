@@ -1,7 +1,7 @@
-import "../styles/Component7.css"
-import logo1 from '../assets/logo2.svg'
+import "../../styles/Component7.css"
+import logo1 from '../../assets/logo2.svg'
 
-const Component7 = () => {
+const HompageComponent7 = () => {
 
     return(
         <>
@@ -22,4 +22,4 @@ const Component7 = () => {
     )
 }
 
-export default Component7
+export default HompageComponent7

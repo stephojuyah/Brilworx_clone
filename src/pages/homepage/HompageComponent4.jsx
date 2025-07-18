@@ -1,10 +1,10 @@
-import "../styles/Component4.css"
-import mobile from '../assets/mobile.svg'
-import tab from '../assets/tab.svg'
-import pc from '../assets/pc.svg'
-import desktop from '../assets/desktop.svg'
+import "../../styles/Component4.css"
+import mobile from '../../assets/mobile.svg'
+import tab from '../../assets/tab.svg'
+import pc from '../../assets/pc.svg'
+import desktop from '../../assets/desktop.svg'
 
-const Component4 = () => {
+const HompageComponent4 = () => {
 
     return(
         <>
@@ -38,4 +38,4 @@ const Component4 = () => {
     )
 }
 
-export default Component4
+export default HompageComponent4

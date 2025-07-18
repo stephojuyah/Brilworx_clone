@@ -1,8 +1,8 @@
-import "../styles/Component6.css"
-import about from '../assets/about.svg'
+import "../../styles/Component6.css"
+import about from '../../assets/about.svg'
 
 
-const Component6 = () => {
+const HompageComponent6 = () => {
 
     return(
         <>
@@ -17,4 +17,4 @@ const Component6 = () => {
     )
 }
 
-export default Component6
+export default HompageComponent6
