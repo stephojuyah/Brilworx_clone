@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 
-const HompageComponent1 = () => {
+const Header = () => {
 
     const navigate = useNavigate();
 
@@ -78,4 +78,4 @@ const HompageComponent1 = () => {
     )
 }
 
-export default HompageComponent1
+export default Header

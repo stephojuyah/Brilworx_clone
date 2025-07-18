@@ -12,7 +12,7 @@ import React from 'react';
 
 
 
-const HompageComponent8 = () => {
+const Footer = () => {
 
     return(
         <>
@@ -62,4 +62,4 @@ const HompageComponent8 = () => {
     )
 }
 
-export default HompageComponent8
+export default Footer
