@@ -55,25 +55,24 @@ const Header = () => {
 
     return(
         <>
-        <header className="header">
-            <img onClick={openHome} src={logo} alt="logo" className="logo"/>
-            <nav className="nav">
-                {/* <a href="" onClick={openTheWay} className="link">The Way</a> */}
-                <NavLink to= "/theway" className="link">The Way</NavLink>
-                <a href="" className="link">The Why</a>
-                <a href="" className="link">The Us</a>
-                <a href="" className="link">The How</a>
-            </nav>
-            <div onClick={toggleMenu} className="hamburger">{isOpen ? "x": "☰"}</div>
+            <header className="header">
+                <img onClick={openHome} src={logo} alt="logo" className="logo"/>
+                <nav className="nav">
+                    {/* <a href="" onClick={openTheWay} className="link">The Way</a> */}
+                    <NavLink to= "/theway" className="link">The Way</NavLink>
+                    <a href="" className="link">The Why</a>
+                    <a href="" className="link">The Us</a>
+                    <a href="" className="link">The How</a>
+                </nav>
+                <div onClick={toggleMenu} className="hamburger">{isOpen ? "X": "☰"}</div>
 
-            <div style={navStyle} className="nav-mobile">
-                <a style={linkmobileStyle} onClick={openTheWay} href="" className="link-mobile">The Way</a>
-                <a style={linkmobileStyle} href="" className="link-mobile">The Why</a>
-                <a style={linkmobileStyle} href="" className="link-mobile">The Us</a>
-                <a style={linkmobileStyle} href="" className="link-mobile">The How</a>
-            </div>
-        </header>
-
+                <div style={navStyle} className="nav-mobile">
+                    <a style={linkmobileStyle} onClick={openTheWay} href="" className="link-mobile">The Way</a>
+                    <a style={linkmobileStyle} href="" className="link-mobile">The Why</a>
+                    <a style={linkmobileStyle} href="" className="link-mobile">The Us</a>
+                    <a style={linkmobileStyle} href="" className="link-mobile">The How</a>
+                </div>
+            </header>
         </>
     )
 }
